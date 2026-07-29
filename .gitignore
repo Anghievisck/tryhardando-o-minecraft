@@ -1,0 +1,14 @@
+# Ignorar o script executável (para que ele não vá para o GitHub)
+*.bat
+
+# Ignorar arquivo de bloqueio de sessão do Minecraft 
+# (Ele muda toda vez que você abre o jogo e pode causar conflitos no GitHub)
+session.lock
+
+# Ignorar pastas de estatísticas locais (opcional, remova se quiser sincronizar os stats)
+# stats/
+
+# Ignorar mapas de minimap (como JourneyMap/Xaeros) se você usar mods 
+# (Eles geram milhares de arquivos minúsculos que deixam o Git lento)
+.xaero/
+journeymap/
